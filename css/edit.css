@@ -1,0 +1,365 @@
+﻿@import url('../css2-1');
+
+
+.container .boxflex .h1{
+	width: 630px;
+	height: auto;
+	margin-bottom: 30px;
+}
+
+.container .boxflex .h1 img{
+	width: 630px;
+
+	height: 100%;
+}
+
+.boxflex {
+	max-width: 100vw;
+}
+
+
+.btnflex__button {
+	border: 0px;
+}
+
+.button {
+	background-image: linear-gradient(7deg, #5c9abb 0%, #2dbcc1 30%, #002877 100%);
+	background-size: 200% 200%;
+
+}
+
+.btnflex__button_Outline {
+	border: 0px;
+}
+
+.servers {
+	background-color: #03141CE4;
+}
+
+.news {
+	background-color: #03141CE4;
+}
+
+.howToPlay {
+	background-color: #03141CE4;
+	margin-bottom: 100px;
+	justify-content: center;
+}
+
+.actualBonusCode {
+	padding-bottom: 0px;
+}
+
+.card {
+	border: 1px solid #004B9EC0;
+}
+
+.card:hover{
+	border: 1px solid #0059ADC0;
+	background:linear-gradient(107.39deg, #1E1E39 -6.85%, rgba(18,18,28,0.5) 31.61%),linear-gradient(295.5deg, #1E1E39 -6.74%, rgba(18,18,28,0.5) 36.12%)
+}
+.step:hover {
+	background:linear-gradient(295.5deg, #1E1E39 -6.74%, #181825 36.12%),#181724;
+}
+
+.countersteps {
+	background-image: linear-gradient(40deg, #5c9abb 0%, #2dbcc1 30%, #002877 100%);
+	background-size: 200% 200%;
+	font-family: Geneva, Arial, Helvetica, monospace;
+	padding: 15px 25px 16px;
+}
+.boxflex__description {
+	max-width: 85vw;
+}
+
+
+.payment {
+	display: none;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	z-index: 5;
+	height: 100vh;
+	width: 100vw;
+	background-color: #232323F7;
+}
+
+.pay-info {
+	max-width: 80vw;
+	position: relative;
+	display: block;
+	background-color: #111111;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	z-index: 10;
+	width: auto;
+	color: #FFFFFF;
+	font-size: 20pt;
+	padding: 10px;
+}
+
+.pay-info h2 {
+	text-align: center !important;
+	margin-bottom: auto;
+	width: auto;
+}
+
+
+/*Донат*/
+.donate{
+	display: none;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+	height: 100vh;
+	width: 100vw;
+	background-color: #232323F7;
+}
+
+/*.donatebg {
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-color: #232323F7;
+	z-index: 1;
+}*/
+
+.donateWindow{
+	position: relative;
+	display: block;
+	background-color: #111111;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	z-index: 10;
+}
+
+.donateHead {
+	font-family: istok web, sans-serif;
+	font-size: 29pt;
+	display: flex;
+	text-align: center;
+	margin-top: -1px;
+	margin-left: -1px;
+	width: 100%;
+	height: 1.4em;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px 15px 0px 0px;
+	color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+}
+
+.donateMain {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: row dense;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+/*	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;*/
+}
+
+.donateMain input{
+	color: black;
+	/*font-size: 1.3vw;*/
+	padding: 1.2vh 1.2vw;
+	width: 10.8vw;
+	margin-top: 10px;
+	margin-left: 10px;
+	min-height: 4vh;
+}
+.donateMain #submit{
+	font-size: 1.2vw;
+	width: 13.2vw;
+	color: black;
+}
+
+.grid-container {
+	display: grid;
+}
+.grid-item {
+	display: inline;
+
+}
+
+.logo {
+	height: 60px;
+}
+.logo img{
+	height: 60px;
+}
+
+.novost:hover .novost_description{
+	color: #2CA8F1;
+}
+
+span {
+	color: #1C92F5;
+}
+
+.footer-bottom{
+	justify-content: space-evenly;
+}
+
+.desсription_and_button:hover .bttnss{
+	z-index:3;
+	transform:translateY(40px);
+	display: flex;
+
+}
+
+.desсription_and_button .bttnss {
+	position:relative;
+	transition:all .5s;
+	transform:translateY(-50px);
+	z-index:1
+}
+
+.ctstp {
+	z-index: 2;
+}
+
+.howToPlay__moreElements{
+	z-index: 3;
+}
+
+@media screen and (min-width: 1279px) and (max-width: 1560px){
+.donateMain input{
+	width: 15.8vw;
+}
+.donateMain #submit{
+	width: 18.2vw;
+	font-size: 1.2vw;
+}
+}
+
+@media screen and (min-width: 860px) and (max-width: 1279px){
+.ctstp {
+    margin: 0;
+    margin-right: 50px;
+}
+.moreElements {
+    justify-content: space-between;
+}
+
+.moreElements {
+    flex-direction: unset;
+}
+.howToPlay__moreElements {
+    margin-left: 30px;
+}
+
+.donateMain input{
+	width: 15.8vw;
+}
+.donateMain #submit{
+	width: 18.2vw;
+	font-size: 1.45vw;
+}
+
+}
+
+@media screen and (min-width: 768px){
+.pay-info {
+	width: 450px;
+}
+}
+@media screen and (max-width: 1000px){
+.actualBonusCode{
+	display: none;
+}
+}
+@media screen and (max-width: 1279px){
+.pay-info p {
+	font-size: 28px;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1000px){
+/*.btnflex {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btnflex__button {
+	margin-right: 0;
+    margin-bottom: 20px;
+}*/
+.donateHead {
+	font-size: 24pt;
+}
+.donateMain input{
+	width: 20.8vw;
+}
+.donateMain #submit{
+	width: 23.2vw;
+	font-size: 13pt;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+.btnflex {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.btnflex__button {
+    margin-bottom: 20px;
+    margin-right: 0;
+}
+.donateHead {
+	font-size: 24pt;
+}
+.donateMain input{
+	width: 30vw;
+}
+.donateMain #submit{
+	width: 32vw;
+	font-size: 13pt;
+}
+
+.container .boxflex .h1 img{
+	width: 95vw;
+}
+.pay-info {
+	width: 360px;
+}
+}
+
+@media screen  and (max-width: 480px){
+.donateHead {
+	font-size: 19pt;
+}
+.donateMain input{
+	width: 40vw;
+}
+.donateMain #submit{
+	width: 42.40vw;
+	font-size: 13pt;
+}
+/*.container {
+	margin: 0;
+}*/
+.boxflex__description {
+	font-size: 10pt;
+}
+.container .boxflex .h1 img{
+	width: 95vw;
+	padding: 0;
+}
+.pay-info {
+	font-size: 14pt;
+	width: 200px;
+}
+.pay-info h2{
+	font-size: 17pt;
+}
+}

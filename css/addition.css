@@ -1,0 +1,139 @@
+.popupDownload{
+	display: none;
+	position: fixed;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+	height: 100vh;
+	width: 100vw;
+	background-color: #232323F7;
+}
+
+.DownloadWindow{
+	position: relative;
+	display: block;
+	background-color: #111111;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px;
+	z-index: 10;
+}
+
+.DownloadMain img{
+	position: relative;
+	padding: 10px;
+	width: 12vw;
+	max-width: 150px;
+	min-width: 110px;
+}
+
+.DownloadMain a{
+	height: 30%;
+
+}
+
+.DownloadHead {
+	font-family: istok web, sans-serif;
+	font-size: 29pt;
+	display: flex;
+	text-align: center;
+	margin-top: -1px;
+	margin-left: -1px;
+	width: 100%;
+	height: 1.4em;
+	border: 1px solid #FFFFFF;
+	border-radius: 15px 15px 0px 0px;
+	color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+}
+
+.DownloadMain {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-flow: row dense;
+
+	margin-right: 10px;
+	margin-bottom: 10px;
+/*	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;*/
+}
+
+.DownloadMain input{
+	color: black;
+	/*font-size: 1.3vw;*/
+	padding: 1.2vh 1.2vw;
+	width: 10.8vw;
+	margin-top: 10px;
+	margin-left: 10px;
+	min-height: 4vh;
+}
+.DownloadMain #submit{
+	font-size: 1.2vw;
+	width: 13.2vw;
+	color: black;
+}
+
+
+@media screen and (min-width: 1279px) and (max-width: 1560px){
+.DownloadMain input{
+	width: 15.8vw;
+}
+.DownloadMain #submit{
+	width: 18.2vw;
+	font-size: 1.2vw;
+}
+}
+
+
+@media screen and (min-width: 860px) and (max-width: 1279px){
+.DownloadMain input{
+	width: 15.8vw;
+}
+.DownloadMain #submit{
+	width: 18.2vw;
+	font-size: 1.45vw;
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+.DownloadHead {
+	font-size: 24pt;
+}
+.DownloadMain input{
+	width: 20.8vw;
+}
+.DownloadMain #submit{
+	width: 23.2vw;
+	font-size: 13pt;
+}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+.DownloadHead {
+	font-size: 24pt;
+}
+.DownloadMain input{
+	width: 30vw;
+}
+.DownloadMain #submit{
+	width: 32vw;
+	font-size: 13pt;
+}
+}
+
+@media screen  and (max-width: 480px){
+.DownloadHead {
+	font-size: 19pt;
+}
+.DownloadMain input{
+	width: 40vw;
+}
+.DownloadMain #submit{
+	width: 42.40vw;
+	font-size: 13pt;
+}
+}
